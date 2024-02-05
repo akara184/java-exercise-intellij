@@ -11,7 +11,7 @@ public class Program {
     public static void main(String[] args) {
 
         int[] vect = new int[]{3, 4, 5};
-        changeOddValues(vect); // O Compartamento dessa função depende de valor externo
+        changeOddValues(vect); // O comportamento dessa função depende de valor externo
         System.out.println(Arrays.toString(vect));
     }
 
